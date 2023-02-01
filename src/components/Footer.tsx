@@ -9,7 +9,7 @@ export const Footer: FC = () => {
                     <div className="grid grid-cols-1 gap-2 md:gap-8 md:space-x-12 relative">
                         <div className='flex col-span-2 mx-4 items-center md:items-start justify-between'>
                             <div className='flex flex-row ml-1 my-auto'>
-                                <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
                                         <img src="/nalcoin_logo.png" style={{height:'3rem'}}  alt="solana icon" />
                                         {/* <Image
